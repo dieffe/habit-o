@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFCCAD8828A56431003E5A36 /* habit_oApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCAD8728A56431003E5A36 /* habit_oApp.swift */; };
+		EFCCAD8A28A56431003E5A36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCAD8928A56431003E5A36 /* ContentView.swift */; };
+		EFCCAD8C28A56436003E5A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCCAD8B28A56436003E5A36 /* Assets.xcassets */; };
+		EFCCAD8F28A56436003E5A36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCCAD8E28A56436003E5A36 /* Preview Assets.xcassets */; };
+		EFCCAD9928A56437003E5A36 /* habit_oTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCAD9828A56437003E5A36 /* habit_oTests.swift */; };
+		EFCCADA328A56437003E5A36 /* habit_oUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCADA228A56437003E5A36 /* habit_oUITests.swift */; };
+		EFCCADA528A56437003E5A36 /* habit_oUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCADA428A56437003E5A36 /* habit_oUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFCCAD9528A56437003E5A36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCCAD7C28A56431003E5A36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFCCAD8328A56431003E5A36;
+			remoteInfo = "habit-o";
+		};
+		EFCCAD9F28A56437003E5A36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCCAD7C28A56431003E5A36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFCCAD8328A56431003E5A36;
+			remoteInfo = "habit-o";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFCCAD8428A56431003E5A36 /* habit-o.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "habit-o.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCCAD8728A56431003E5A36 /* habit_oApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habit_oApp.swift; sourceTree = "<group>"; };
+		EFCCAD8928A56431003E5A36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFCCAD8B28A56436003E5A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFCCAD8E28A56436003E5A36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFCCAD9428A56437003E5A36 /* habit-oTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "habit-oTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCCAD9828A56437003E5A36 /* habit_oTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habit_oTests.swift; sourceTree = "<group>"; };
+		EFCCAD9E28A56437003E5A36 /* habit-oUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "habit-oUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCCADA228A56437003E5A36 /* habit_oUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habit_oUITests.swift; sourceTree = "<group>"; };
+		EFCCADA428A56437003E5A36 /* habit_oUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habit_oUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFCCAD8128A56431003E5A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCCAD9128A56437003E5A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCCAD9B28A56437003E5A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFCCAD7B28A56431003E5A36 = {
+			isa = PBXGroup;
+			children = (
+				EFCCAD8628A56431003E5A36 /* habit-o */,
+				EFCCAD9728A56437003E5A36 /* habit-oTests */,
+				EFCCADA128A56437003E5A36 /* habit-oUITests */,
+				EFCCAD8528A56431003E5A36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFCCAD8528A56431003E5A36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCAD8428A56431003E5A36 /* habit-o.app */,
+				EFCCAD9428A56437003E5A36 /* habit-oTests.xctest */,
+				EFCCAD9E28A56437003E5A36 /* habit-oUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFCCAD8628A56431003E5A36 /* habit-o */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCAD8728A56431003E5A36 /* habit_oApp.swift */,
+				EFCCAD8928A56431003E5A36 /* ContentView.swift */,
+				EFCCAD8B28A56436003E5A36 /* Assets.xcassets */,
+				EFCCAD8D28A56436003E5A36 /* Preview Content */,
+			);
+			path = "habit-o";
+			sourceTree = "<group>";
+		};
+		EFCCAD8D28A56436003E5A36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCAD8E28A56436003E5A36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFCCAD9728A56437003E5A36 /* habit-oTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCAD9828A56437003E5A36 /* habit_oTests.swift */,
+			);
+			path = "habit-oTests";
+			sourceTree = "<group>";
+		};
+		EFCCADA128A56437003E5A36 /* habit-oUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFCCADA228A56437003E5A36 /* habit_oUITests.swift */,
+				EFCCADA428A56437003E5A36 /* habit_oUITestsLaunchTests.swift */,
+			);
+			path = "habit-oUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFCCAD8328A56431003E5A36 /* habit-o */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCCADA828A56437003E5A36 /* Build configuration list for PBXNativeTarget "habit-o" */;
+			buildPhases = (
+				EFCCAD8028A56431003E5A36 /* Sources */,
+				EFCCAD8128A56431003E5A36 /* Frameworks */,
+				EFCCAD8228A56431003E5A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "habit-o";
+			productName = "habit-o";
+			productReference = EFCCAD8428A56431003E5A36 /* habit-o.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFCCAD9328A56437003E5A36 /* habit-oTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCCADAB28A56437003E5A36 /* Build configuration list for PBXNativeTarget "habit-oTests" */;
+			buildPhases = (
+				EFCCAD9028A56437003E5A36 /* Sources */,
+				EFCCAD9128A56437003E5A36 /* Frameworks */,
+				EFCCAD9228A56437003E5A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFCCAD9628A56437003E5A36 /* PBXTargetDependency */,
+			);
+			name = "habit-oTests";
+			productName = "habit-oTests";
+			productReference = EFCCAD9428A56437003E5A36 /* habit-oTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFCCAD9D28A56437003E5A36 /* habit-oUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCCADAE28A56437003E5A36 /* Build configuration list for PBXNativeTarget "habit-oUITests" */;
+			buildPhases = (
+				EFCCAD9A28A56437003E5A36 /* Sources */,
+				EFCCAD9B28A56437003E5A36 /* Frameworks */,
+				EFCCAD9C28A56437003E5A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFCCADA028A56437003E5A36 /* PBXTargetDependency */,
+			);
+			name = "habit-oUITests";
+			productName = "habit-oUITests";
+			productReference = EFCCAD9E28A56437003E5A36 /* habit-oUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFCCAD7C28A56431003E5A36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EFCCAD8328A56431003E5A36 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					EFCCAD9328A56437003E5A36 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EFCCAD8328A56431003E5A36;
+					};
+					EFCCAD9D28A56437003E5A36 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EFCCAD8328A56431003E5A36;
+					};
+				};
+			};
+			buildConfigurationList = EFCCAD7F28A56431003E5A36 /* Build configuration list for PBXProject "habit-o" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFCCAD7B28A56431003E5A36;
+			productRefGroup = EFCCAD8528A56431003E5A36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFCCAD8328A56431003E5A36 /* habit-o */,
+				EFCCAD9328A56437003E5A36 /* habit-oTests */,
+				EFCCAD9D28A56437003E5A36 /* habit-oUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFCCAD8228A56431003E5A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCCAD8F28A56436003E5A36 /* Preview Assets.xcassets in Resources */,
+				EFCCAD8C28A56436003E5A36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCCAD9228A56437003E5A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCCAD9C28A56437003E5A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFCCAD8028A56431003E5A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCCAD8A28A56431003E5A36 /* ContentView.swift in Sources */,
+				EFCCAD8828A56431003E5A36 /* habit_oApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCCAD9028A56437003E5A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCCAD9928A56437003E5A36 /* habit_oTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCCAD9A28A56437003E5A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCCADA328A56437003E5A36 /* habit_oUITests.swift in Sources */,
+				EFCCADA528A56437003E5A36 /* habit_oUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFCCAD9628A56437003E5A36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFCCAD8328A56431003E5A36 /* habit-o */;
+			targetProxy = EFCCAD9528A56437003E5A36 /* PBXContainerItemProxy */;
+		};
+		EFCCADA028A56437003E5A36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFCCAD8328A56431003E5A36 /* habit-o */;
+			targetProxy = EFCCAD9F28A56437003E5A36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFCCADA628A56437003E5A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFCCADA728A56437003E5A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFCCADA928A56437003E5A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"habit-o/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FV6HP6BVQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moonsubmarine.habit-o.habit-o";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFCCADAA28A56437003E5A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"habit-o/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FV6HP6BVQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moonsubmarine.habit-o.habit-o";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFCCADAC28A56437003E5A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FV6HP6BVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moonsubmarine.habit-o.habit-oTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/habit-o.app/habit-o";
+			};
+			name = Debug;
+		};
+		EFCCADAD28A56437003E5A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FV6HP6BVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moonsubmarine.habit-o.habit-oTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/habit-o.app/habit-o";
+			};
+			name = Release;
+		};
+		EFCCADAF28A56437003E5A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FV6HP6BVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moonsubmarine.habit-o.habit-oUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "habit-o";
+			};
+			name = Debug;
+		};
+		EFCCADB028A56437003E5A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FV6HP6BVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moonsubmarine.habit-o.habit-oUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "habit-o";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFCCAD7F28A56431003E5A36 /* Build configuration list for PBXProject "habit-o" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCCADA628A56437003E5A36 /* Debug */,
+				EFCCADA728A56437003E5A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCCADA828A56437003E5A36 /* Build configuration list for PBXNativeTarget "habit-o" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCCADA928A56437003E5A36 /* Debug */,
+				EFCCADAA28A56437003E5A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCCADAB28A56437003E5A36 /* Build configuration list for PBXNativeTarget "habit-oTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCCADAC28A56437003E5A36 /* Debug */,
+				EFCCADAD28A56437003E5A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCCADAE28A56437003E5A36 /* Build configuration list for PBXNativeTarget "habit-oUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCCADAF28A56437003E5A36 /* Debug */,
+				EFCCADB028A56437003E5A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFCCAD7C28A56431003E5A36 /* Project object */;
+}
