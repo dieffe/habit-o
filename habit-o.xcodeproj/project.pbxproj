@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFA52C3A28A83D6E00EC242E /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA52C3928A83D6E00EC242E /* Classes.swift */; };
 		EFCCAD8828A56431003E5A36 /* habit_oApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCAD8728A56431003E5A36 /* habit_oApp.swift */; };
 		EFCCAD8A28A56431003E5A36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCAD8928A56431003E5A36 /* ContentView.swift */; };
 		EFCCAD8C28A56436003E5A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCCAD8B28A56436003E5A36 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EFA52C3928A83D6E00EC242E /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
 		EFCCAD8428A56431003E5A36 /* habit-o.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "habit-o.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCCAD8728A56431003E5A36 /* habit_oApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habit_oApp.swift; sourceTree = "<group>"; };
 		EFCCAD8928A56431003E5A36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		EFCCAD8628A56431003E5A36 /* habit-o */ = {
 			isa = PBXGroup;
 			children = (
+				EFA52C3928A83D6E00EC242E /* Classes.swift */,
 				EFCCAD8728A56431003E5A36 /* habit_oApp.swift */,
 				EFCCAD8928A56431003E5A36 /* ContentView.swift */,
 				EFCCAD8B28A56436003E5A36 /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA52C3A28A83D6E00EC242E /* Classes.swift in Sources */,
 				EFCCAD8A28A56431003E5A36 /* ContentView.swift in Sources */,
 				EFCCAD8828A56431003E5A36 /* habit_oApp.swift in Sources */,
 			);
@@ -434,7 +438,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +467,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
