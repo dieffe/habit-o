@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selection: String? = nil
+    @State private var title = ""
     var color_purple: Color = Color(.sRGB, red: 161/255, green: 78/255, blue: 191/255)
     
     var body: some View {
@@ -35,7 +36,7 @@ struct ContentView: View {
             //---
             Spacer()
             _lista()
-            NavigationLink(destination: Text("View A"), tag: "A", selection: $selection) { EmptyView() }
+            NavigationLink(destination: newForm(), tag: "A", selection: $selection) { EmptyView() }
 
             //---
             Button(action: {

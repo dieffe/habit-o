@@ -40,3 +40,33 @@ func _riga(title: String, subtitle: String, symbol: String) -> some View {
     
     return body
 }
+
+struct newForm:View {
+    
+    @State private var title = ""
+    @State private var subtitle = ""
+    
+    var body: some View {
+        
+        Text("Create a new Habit").font(Font.system(.largeTitle, design: .rounded).weight(.heavy))
+            .foregroundColor(Color(.sRGB, red: 161/255, green: 78/255, blue: 191/255))
+        Spacer().frame(height: 50)
+        Text("How would you describe this habit")
+        TextField("Title", text: $title).padding()
+        Divider()
+         .frame(height: 1)
+         .padding(.horizontal, 30)
+         .background(Color.gray)
+        Spacer()
+        Button("Add", action: {
+            
+        })
+        .frame(maxWidth: .infinity, maxHeight: 50)
+        .background(Color(.sRGB, red: 161/255, green: 78/255, blue: 191/255))
+        .foregroundColor(Color.white)
+        .font(Font.system(.largeTitle, design: .rounded).weight(.heavy))
+        
+    
+    }
+    
+}
