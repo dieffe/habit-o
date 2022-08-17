@@ -7,11 +7,15 @@
 
 import SwiftUI
 
+
+
 @main
 struct habit_oApp: App {
+    @StateObject private var dataController = DataController()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }

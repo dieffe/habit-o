@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EFA52C3A28A83D6E00EC242E /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA52C3928A83D6E00EC242E /* Classes.swift */; };
+		EFA52C3D28AC1EC100EC242E /* Habits.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFA52C3B28AC1EC100EC242E /* Habits.xcdatamodeld */; };
+		EFA52C3F28AC1F5400EC242E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA52C3E28AC1F5400EC242E /* DataController.swift */; };
 		EFCCAD8828A56431003E5A36 /* habit_oApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCAD8728A56431003E5A36 /* habit_oApp.swift */; };
 		EFCCAD8A28A56431003E5A36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCCAD8928A56431003E5A36 /* ContentView.swift */; };
 		EFCCAD8C28A56436003E5A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCCAD8B28A56436003E5A36 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		EFA52C3928A83D6E00EC242E /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		EFA52C3C28AC1EC100EC242E /* Habits.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Habits.xcdatamodel; sourceTree = "<group>"; };
+		EFA52C3E28AC1F5400EC242E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		EFCCAD8428A56431003E5A36 /* habit-o.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "habit-o.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCCAD8728A56431003E5A36 /* habit_oApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habit_oApp.swift; sourceTree = "<group>"; };
 		EFCCAD8928A56431003E5A36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 				EFA52C3928A83D6E00EC242E /* Classes.swift */,
 				EFCCAD8728A56431003E5A36 /* habit_oApp.swift */,
 				EFCCAD8928A56431003E5A36 /* ContentView.swift */,
+				EFA52C3B28AC1EC100EC242E /* Habits.xcdatamodeld */,
+				EFA52C3E28AC1F5400EC242E /* DataController.swift */,
 				EFCCAD8B28A56436003E5A36 /* Assets.xcassets */,
 				EFCCAD8D28A56436003E5A36 /* Preview Content */,
 			);
@@ -260,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA52C3F28AC1F5400EC242E /* DataController.swift in Sources */,
 				EFA52C3A28A83D6E00EC242E /* Classes.swift in Sources */,
 				EFCCAD8A28A56431003E5A36 /* ContentView.swift in Sources */,
+				EFA52C3D28AC1EC100EC242E /* Habits.xcdatamodeld in Sources */,
 				EFCCAD8828A56431003E5A36 /* habit_oApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +595,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFA52C3B28AC1EC100EC242E /* Habits.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFA52C3C28AC1EC100EC242E /* Habits.xcdatamodel */,
+			);
+			currentVersion = EFA52C3C28AC1EC100EC242E /* Habits.xcdatamodel */;
+			path = Habits.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EFCCAD7C28A56431003E5A36 /* Project object */;
 }

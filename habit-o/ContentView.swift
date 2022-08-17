@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @Environment(\.managedObjectContext) var moc
+    @FetchRequest(sortDescriptors: []) var students: FetchedResults<Student>
+    
     @State private var selection: String? = nil
     @State private var title = ""
     var color_purple: Color = Color(.sRGB, red: 161/255, green: 78/255, blue: 191/255)
     
     var body: some View {
+        
     //---->
         NavigationView {
-
             VStack {
             Text("")
                     .navigationBarTitleDisplayMode(.inline)
@@ -34,6 +38,24 @@ struct ContentView: View {
                         }
                     }
             //---
+            //TEST
+            List(students) { student in
+                let uuid = UUID().uuidString
+                Text(student.name ?? "Unknown")
+            }
+            Button("Add") {
+                let firstNames = ["Ginny", "Harry", "Hermione", "Luna", "Ron"]
+                let lastNames = ["Granger", "Lovegood", "Potter", "Weasley"]
+
+                let chosenFirstName = firstNames.randomElement()!
+                let chosenLastName = lastNames.randomElement()!
+
+                let student = Student(context: moc)
+                student.id = UUID()
+                student.name = "\(chosenFirstName) \(chosenLastName)"
+                try? moc.save()
+            }
+            //TEST
             Spacer()
             _lista()
             NavigationLink(destination: newForm(), tag: "A", selection: $selection) { EmptyView() }
